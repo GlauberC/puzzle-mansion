@@ -1,0 +1,51 @@
+.invisivel{
+    display: none;
+}
+.area-tabela{
+    margin-top: 5em;
+}
+.btn-cancelar{
+    margin-top: 5em;
+}
+.input{
+    align-items: center;
+}
+.quadrado{
+    width: 5em;
+    height: 5em;
+    border: 0.1em solid black;
+    position: relative;
+    float: left;
+    margin: 1em;
+}
+.mini-quadrado{
+    width: 1.5em;
+    height: 1.5em;
+    border: 0.1em solid black;
+    float: left;
+    margin: 0.5em;
+    text-align: center;
+ 
+
+}
+.mini-acertos{
+    font-weight: bolder;
+    font-size: 1.5em;
+    padding: 0em;
+    margin: 0.2em;
+}
+.q0{
+    background-color: red;
+}
+.q1{
+    background-color: blue;
+}
+.q2{
+    background-color: green;
+}
+.q3{
+    background-color: yellow;
+}
+.q4{
+    background-color: black;
+}

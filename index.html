@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Puzzle Mansion</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="css/page.css">
+</head>
+<body>
+    <main class = "container">
+        <header class = "area-escolhe-dificuldade">
+            <h1>Jogo de advinhação de códigos</h1>
+            
+            <h3>Escolha a dificuldade</h3>
+            <button class = "btn btn-block btn-lg btn-info" onClick="jogoController.comecaPartida(0)">Easy</button>
+            <button class = "btn btn-block btn-lg btn-warning" onClick="jogoController.comecaPartida(1)">Medium</button>
+            <button class = "btn btn-block btn-lg btn-danger" onClick="jogoController.comecaPartida(2)">Hard</button>
+        </header>
+        <section class = "area-jogo invisivel">
+            <div class="area-vitoria invisivel"></div>
+            <div class = "area-input">
+                <h1>Faça um chute</h1>
+                <h3>Clique nos quadrados para mudar de cor</h3>
+                <div class="area-tentativa"></div>
+            </div>
+            <div class = "area-tabela">
+                
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Controller -->
+    <script src="js/app/controller/JogoController.js"></script>
+
+    <!-- helper -->
+    <script src="js/app/helper/JogoHelper.js"></script>
+
+    <!-- Model -->
+    <script src="js/app/model/Jogo.js"></script>
+    <script src="js/app/model/Tentativa.js"></script>
+    <script src="js/app/model/ListaTentativas.js"></script>
+
+
+    <!-- View -->
+    <script src="js/app/view/View.js"></script>
+    <script src="js/app/view/JogoView.js"></script>
+    <script src="js/app/view/ListaTentativasView.js"></script>
+    <script src="js/app/view/VitoriaView.js"></script>
+    <script>
+        let jogoController = new JogoController();
+        // Melhorar a visualização
+        // Criar mensagens na tela
+    </script>
+</body>
+
+</html>
