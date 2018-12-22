@@ -35,7 +35,6 @@ class ListaTentativasView extends View{
 
             </tbody>
         </table>
-        <button class = "btn-cancelar btn btn-block btn-danger" onClick="jogoController.cancelaPartida()">Voltar à seleção de dificuldade</button>
         `
     }
 }

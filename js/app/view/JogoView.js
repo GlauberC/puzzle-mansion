@@ -11,7 +11,7 @@ class JogoView extends View{
             ${model.tamanho>3?'<div value = "-1" onClick = "jogoController.mudarQuadrado(event)" class = quadrado></div>' : ""}
             ${model.tamanho>4?'<div value = "-1" onClick = "jogoController.mudarQuadrado(event)" class = quadrado></div>' : ""}
         </div>
-        <button onClick="jogoController.chutar()" class = "btn-chutar btn btn-block btn-primary">Chutar!</button>
+        <button onClick="jogoController.chutar()" class = "btn-chutar btn btn-block btn-primary btn-lg">Chutar!</button>
         `
     }
 }

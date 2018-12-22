@@ -6,9 +6,7 @@
 }
 .btn-cancelar{
     margin-top: 5em;
-}
-.input{
-    align-items: center;
+    float: right;
 }
 .quadrado{
     width: 5em;
